@@ -1,0 +1,90 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #fc8b00;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.Account-Container{
+    margin-top: 4.5vw;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    font-size: 20px;
+
+}
+.fromheading{
+  color: #575555;
+  text-align: center;
+}
+.Account-from{
+  border: solid 2vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+input{
+  height: 2px;
+}
+.Nextbutton{
+  position: absolute;
+  right: 15vw;
+  top :35vw;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  z-index: 10;
+}
+#next{
+  width: 10vw;
+  height: 4vh;
+  background-color: #007bff;
+  border: #007bff;
+  cursor: pointer;
+}
+#next:hover{
+  background-color: #0056b3;
+}
+.previous{
+  color: #575555;
+  position: absolute;
+  right: 30vw;
+  top: 35vw;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.previous:hover{
+  color: #1f1d1d;
+}
+.error-message{
+  color: #d32f2f;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+.ImageUpload{
+  position: absolute;
+  right: 30vw;
+  top: 22.8vw;
+  transform: translateY(-60%);
+  transform: translateX(70%);
+  font-size: 1.2rem;
+  z-index: 10;
+  cursor: pointer;
+}
+.date::-webkit-calendar-picker-indicator {
+  filter: invert(60%) sepia(10%) saturate(10%) hue-rotate(10deg);
+  cursor: pointer;
+}
+

@@ -1,0 +1,198 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #fc8b00;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .logo2 {
+    position: relative;
+    width: fit-content;
+  }
+  h3{
+    color: rgb(79, 77, 77);
+    margin: 0; 
+    padding: 0;
+  }
+  .container-form {
+    margin-top: 4.5vw;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    font-size: 20px;
+  }
+ .headline{
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    width: 30vw;
+    color: #575555;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+ }
+ 
+  .auth-tab {
+     border: rgb(147, 146, 145) solid;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25vw; 
+    height: 60vh;
+    margin-top: 3vw;
+    margin-left: 10vw;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;  
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #575555;
+  }
+  
+  input {
+    margin: 0;
+    color: #575555;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #a3a1a1;
+    background-color: white;
+    border-radius: 4px;
+    width: 23vw;
+  }
+  .btn{
+    display: flex;
+    gap: 30px;
+  }
+  #withPhone.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+  .forgetpass{
+    background-color: white;
+    border: none;
+    color: #0056b3;
+    cursor: pointer;
+  }
+  #loginbutton {
+    width: 10vw;
+    height: 2vw;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #loginbutton:hover {
+    background-color: #0056b3; 
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 1vw;
+    top: 1.5vw;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+    font-size: 1.2rem;
+    z-index: 10;
+  }
+  .password-container {
+    position: relative;
+    width: 100%;
+  }
+  #withPhone{
+    margin-top: 10px;
+    width: 25vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    color: #0056b3;
+    cursor: pointer;
+  }
+  .error-text {
+    color: red;  
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+  }
+  .toggle-phone{
+    border: rgb(163, 162, 158) solid;
+    border-radius: 30px;
+    padding: 20px;
+    width: 25vw; 
+    height: 60vh;
+    margin-top: 3vw;
+    margin-left: 10vw;
+  }
+  .btn-phone{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #otp-button{
+    background-color: #007bff;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  #otp-button:hover{
+    background-color: #0056b3; 
+  }
+  #otp-button:disabled{
+    height: 5vh;
+    background-color: white;
+    border-color: #0056b3;
+    color:#575555;
+    border-radius: 25px;
+    cursor: not-allowed;
+ }
+  #email-button{
+    margin-top: 10px;
+    width: 25vw;
+    height: 5vh;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    color: #0056b3;
+    cursor: pointer;
+
+  }
+  .comfirm{
+    margin-top: 5px;
+    width: 25vw;
+    height: 5vh;
+    background-color: #0056b3 ;
+    border: 1px solid;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  .comfirm:disabled{
+    height: 5vh;
+    background-color: white;
+    border-color: #0056b3;
+    color:#575555;
+    border-radius: 25px;
+    cursor: not-allowed;
+  }
