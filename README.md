@@ -1,59 +1,48 @@
-# Frontend Websites 🎨
+# Frontend Web Projects Collection 🚀
 
-A curated collection of modern frontend website samples built using HTML, CSS, and JavaScript. Ideal for learning, inspiration, and showcasing frontend skills.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Responsive Design](https://img.shields.io/badge/Responsive-Design-green)
 
----
+A curated collection of modern, responsive frontend website templates and UI components built with pure HTML, CSS, and JavaScript. Ideal for developers looking for production-ready templates or learning frontend best practices.
 
-## 🚀 Table of Contents
-1. [About](#about)  
-2. [Demo Sites](#demo-sites)  
-3. [Technologies](#technologies)  
-4. [Getting Started](#getting-started)  
-5. [Screenshots](#screenshots)  
-6. [Want to Contribute?](#want-to-contribute)  
-7. [License](#license)  
+## 🌟 Featured Projects
 
----
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **E-Commerce Template** | Complete online store UI with product listings, cart system | [View Demo](https://dhareeppa.github.io/Frontend_websites-/ecommerce-template) |
+| **Travel Agency Website** | Responsive travel booking interface with interactive elements | [View Demo](https://dhareeppa.github.io/Frontend_websites-/travel-agency) |
+| **Restaurant Booking System** | Food ordering UI with menu filtering and reservation form | [View Demo](https://dhareeppa.github.io/Frontend_websites-/restaurant-booking) |
+| **Fitness Dashboard** | Workout tracking interface with progress visualization | [View Demo](https://dhareeppa.github.io/Frontend_websites-/fitness-dashboard) |
 
-## 💡 About
-This repository hosts a variety of standalone frontend website projects, each exemplifying:
+## 🛠️ Technologies Used
 
-- Responsive design techniques  
-- Interactive UI elements  
-- Clean and semantic code  
-- Creative visual layouts  
+- **Core:**
+  - HTML5 (Semantic Elements)
+  - CSS3 (Flexbox, Grid, Animations)
+  - Vanilla JavaScript (ES6+)
+  
+- **Frameworks & Libraries:**
+  - Bootstrap 5.3.0
+  - Font Awesome 6.4.0
+  - Google Fonts
+  - Chart.js (Data Visualization)
+  
+- **Tools:**
+  - Prettier (Code Formatting)
+  - Live Server (Development)
+  - Git (Version Control)
 
-Perfect for reference, practice, or portfolio inclusion!
+## 🚀 Getting Started
 
----
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Edge)
+- VS Code (recommended) or any code editor
+- Git (for version control)
 
-## 📂 Demo Sites
-Each project is a separate folder. Here's a quick overview:
-
-| Folder Name         | Description                      |
-|---------------------|----------------------------------|
-| `landing-page/`     | Sleek landing page with hero banner |
-| `portfolio-site/`   | Personal portfolio layout         |
-| `blog-template/`    | Simple blog-style site           |
-
-*(Adjust names/descriptions to match your actual folders)*
-
----
-
-## 🛠 Technologies
-- **HTML5** for structured content  
-- **CSS3** (Flexbox/Grid, Media Queries) for responsive layouts  
-- **JavaScript (ES6+)** for dynamic interactions  
-- Optional frameworks/tools:
-  - Sass / SCSS
-  - jQuery or Vanilla JS
-
----
-
-## 📥 Getting Started
-
-### Clone the repo
-
-```bash
-git clone https://github.com/Dhareeppa/Frontend_websites-.git
-cd Frontend_websites-
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dhareeppa/Frontend_websites-.git
