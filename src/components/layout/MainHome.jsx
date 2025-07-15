@@ -6,7 +6,7 @@ import { MdAccountBalance, MdWorkHistory } from "react-icons/md";
 import { FaCreditCard, FaHandHoldingUsd, FaMoneyCheckAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import AuthContext from "../../context/Authcontext";
-import "./MainHome.css";
+import "./Mainhome.css";
 
 function MainHome() {
   const [userData, setUserData] = useState(null);
