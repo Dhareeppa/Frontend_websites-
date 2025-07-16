@@ -106,7 +106,7 @@ const Registration = () => {
 
       console.log('Sending registration data:', payload);
 
-      const response = await axios.post(import.meta.env.VITE_API_CREATE_ACCOUNT_URL, payload, {
+      const response = await axios.post(import.meta.env.VITE_REGISTER_API_URL, payload, {
         headers: {
           "Content-Type": "application/json",
         }
