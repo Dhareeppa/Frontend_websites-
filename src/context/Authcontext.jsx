@@ -44,7 +44,7 @@ export const AuthProvider = ({ children }) => {
 
 
  let updateToken = async () =>  {
-  let response = await fetch(import.meta.env.VITE_API_CREATE_ACCOUNT_URL, {
+  let response = await fetch(import.meta.env.VITE_REGISTER_API_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
